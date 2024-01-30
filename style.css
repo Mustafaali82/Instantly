@@ -204,6 +204,46 @@ header nav div button:hover {
     color: #1179fc;
 }
 
+/* Testmonals Section Styling */
+
+.testimonal {
+    padding: 100px 80px;
+}
+
+.rating-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.badges img {
+    margin-bottom: 30px;
+}
+
+.badges h2 {
+    font-size: 28px;
+    width: 200px;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: mySecondFont;
+}
+
+.badges-rating img {
+    margin-bottom: 10px;
+}
+
+.badges-rating h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: mySecondFont;
+}
+
+.badges-rating p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #050917b8;
+
+}
 
 @media screen and (max-width: 767px) {
     .none {
