@@ -430,6 +430,14 @@ header nav div button:hover {
     line-height: 40px;
 }
 
+.panel-heading-box p span{
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(90deg, #1179fc 25%, #dc82fc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 18px;
+}
+
 .panel-heading-box button {
     height: 50px;
     background-color: #1179fc;
