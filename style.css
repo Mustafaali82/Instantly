@@ -204,7 +204,7 @@ header nav div button:hover {
     color: #1179fc;
 }
 
-.client button:hover{
+.client button:hover {
     background-color: #dc82fc;
     border: 1px;
     color: white;
@@ -280,7 +280,7 @@ header nav div button:hover {
     font-size: 57px;
     font-family: myFont;
     line-height: 70px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .value-card-column h1 span {
@@ -300,7 +300,6 @@ header nav div button:hover {
     padding: 20px 32px;
     font-size: 18px;
     font-weight: 700;
-    line-height: 10px;
     transition: all .2s;
     margin-top: 40px;
 }
@@ -332,6 +331,121 @@ header nav div button:hover {
 
 .value-card-column div:hover {
     background-color: rgb(17 120 252 / 10%);
+}
+
+.bg-remove {
+    background-color: #f6f8fb;
+}
+
+.value-card-column p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+}
+
+/* Accordion */
+
+.accordion {
+    background-color: #ffffff;
+    color: #565656;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 42px;
+    transition: 0.4s;
+    padding: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    margin-top: 30px;
+}
+
+.accordion-box {
+    padding: 20px 80px;
+}
+
+.accordion span {
+    color: black;
+}
+
+
+.panel {
+    padding: 30px 40px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.accordion:after {
+    content: url(Assets/icon.svg);
+    float: right;
+    /* margin-left: 5px; */
+    transition: .5s;
+    background-color: #F6F8FB;
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -26px;
+}
+
+.active:after {
+    content: url(Assets/icon.svg);
+    float: right;
+    /* margin-left: 5px; */
+    background-color: #F6F8FB;
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Unicode character for "minus" sign (-) */
+    transform: rotate(180deg);
+    transition: .5s;
+}
+
+.panel-box {
+    display: flex;
+    border-top: 1px solid #C1C2C5;
+    gap: 100px;
+    padding-top: 30px;
+}
+
+.panel-image-box img {
+    width: 500px;
+}
+
+.panel-heading-box p {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    line-height: 40px;
+}
+
+.panel-heading-box button {
+    height: 50px;
+    background-color: #1179fc;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    align-items: center;
+    padding: 20px 32px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1px;
+    transition: color .2s, background-color .2s;
+    box-shadow: 0 1px 80px rgba(17, 121, 252, .05);
+    border: 1px;
+    margin-top: 30px;
 }
 
 @media screen and (max-width: 767px) {
