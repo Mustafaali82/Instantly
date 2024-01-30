@@ -204,6 +204,12 @@ header nav div button:hover {
     color: #1179fc;
 }
 
+.client button:hover{
+    background-color: #dc82fc;
+    border: 1px;
+    color: white;
+}
+
 /* Testmonals Section Styling */
 
 .testimonal {
@@ -243,6 +249,89 @@ header nav div button:hover {
     font-weight: 700;
     color: #050917b8;
 
+}
+
+/* Value Section Styling */
+
+.value_section {
+    padding: 50px 80px;
+}
+
+.value_card {
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    padding: 50px;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.value-card-column img {
+    width: 600px;
+}
+
+.value-card-column {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.value-card-column h1 {
+    font-size: 57px;
+    font-family: myFont;
+    line-height: 70px;
+    margin-top: 50px;
+}
+
+.value-card-column h1 span {
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(90deg, #1179fc 25%, #dc82fc);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.value-card-column button {
+    border: 1px solid #1179fc;
+    color: #1179fc;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-radius: 40px;
+    padding: 20px 32px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 10px;
+    transition: all .2s;
+    margin-top: 40px;
+}
+
+.value-card-column button:hover {
+    background-color: #dc82fc;
+    color: white;
+    border: 1px;
+}
+
+.plus-icon {
+    width: 40px !important;
+
+}
+
+.value-card-column div {
+    width: 60px;
+    height: 60px;
+    background-color: #f6f8fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 40px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+.value-card-column div:hover {
+    background-color: rgb(17 120 252 / 10%);
 }
 
 @media screen and (max-width: 767px) {
