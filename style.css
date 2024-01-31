@@ -522,27 +522,45 @@ header nav div button:hover {
     background-color: #FFFFFF !important;
     background-image: none;
     color: black;
-    height: 600px  !important;
+    height: 600px !important;
     padding-top: 0;
 }
 
-.image-column{
+.image-column {
     display: flex;
     justify-content: space-between;
     gap: 32px;
 }
 
-.image-column img{
+.image-column img {
     width: 405px;
-    box-shadow: 17px 0 70px rgba(5,9,23,.11);
+    box-shadow: 17px 0 70px rgba(5, 9, 23, .11);
 
 }
 
-.bg-img-remove h1{
+.bg-img-remove h1 {
     margin-top: 10px;
     width: 100%;
     font-size: 72px;
     font-family: myFont;
+}
+
+.bg-img-add {
+    background-image: url(Assets/bg2.svg);
+    color: white;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img-add h1 {
+    font-size: 56px;
+}
+
+.bg-img-add .value-card-column {
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 767px) {
