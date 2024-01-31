@@ -429,7 +429,7 @@ header nav div button:hover {
     line-height: 40px;
 }
 
-.panel-heading-box p span{
+.panel-heading-box p span {
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(90deg, #1179fc 25%, #dc82fc);
     -webkit-background-clip: text;
@@ -453,6 +453,96 @@ header nav div button:hover {
     box-shadow: 0 1px 80px rgba(17, 121, 252, .05);
     border: 1px;
     margin-top: 30px;
+}
+
+/* Box Section Styling */
+
+.box-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 80px;
+    background-image: url(Assets/bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+    color: white;
+    padding-bottom: 0;
+    height: 860px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.box-section img {
+    width: 100%;
+    width: 70%;
+    /* max-width: 834px; */
+    position: relative;
+    bottom: -60px;
+}
+
+.box-section h1 {
+    font-size: 56px;
+    width: 800px;
+    font-family: mySecondFont;
+    margin-top: 149px;
+}
+
+.box-section h1 span {
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(90deg, #1179fc 25%, #dc82fc);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.box-section p {
+    font-size: 20px;
+    width: 800px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.box-section button {
+    padding: 15px 28px;
+    border-radius: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    background-color: #1179FC;
+    color: white;
+    margin-top: 29px;
+    border: 1px;
+}
+
+.bg-img-remove {
+    background-color: #FFFFFF !important;
+    background-image: none;
+    color: black;
+    height: 600px  !important;
+    padding-top: 0;
+}
+
+.image-column{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.image-column img{
+    width: 405px;
+    box-shadow: 17px 0 70px rgba(5,9,23,.11);
+
+}
+
+.bg-img-remove h1{
+    margin-top: 10px;
+    width: 100%;
+    font-size: 72px;
+    font-family: myFont;
 }
 
 @media screen and (max-width: 767px) {
