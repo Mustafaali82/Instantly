@@ -56,7 +56,7 @@ header nav div ul li {
     font-weight: bold;
 }
 
-header nav div  li:hover{
+header nav div li:hover {
     color: #dc82fc;
 }
 
@@ -569,8 +569,9 @@ header nav div button:hover {
 
 /* footer Section STyling */
 
-footer{
+footer {
     background-image: url(Assets/bg.svg);
+    background-repeat: no-repeat;
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
@@ -578,17 +579,16 @@ footer{
     padding: 30px;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin:0px 80px;
+    margin: 0px 80px;
     padding-top: 30px;
     padding-bottom: 30px;
-    
+
 }
 
-.footer-box{
+.footer-box {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -596,12 +596,18 @@ footer{
     font-weight: 700;
 }
 
-.footer-box h3{
+.footer-box span{
+    color: rgba(238, 238, 238, 0.705);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer-box h3 {
     font-size: 24px;
 }
 
-.footer-box img{
-  width: 200px;
+.footer-box img {
+    width: 200px;
 }
 
 .footer-box p {
@@ -609,6 +615,81 @@ footer{
     font-size: 20px;
     margin-top: 40px;
     line-height: 30px;
+    color: rgba(238, 238, 238, 0.705);
+}
+
+/* Testimonal Section Styling */
+
+.testimonal-card {
+    margin: 20px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonal-card h1 {
+    font-size: 40px;
+    color: rgba(15, 15, 15, 0.65);
+    width: 600px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.testimonal-card h1 span {
+    color: #0f0f0f;
+}
+
+.person-detail img {
+    width: 70px;
+    border-radius: 50px;
+}
+
+.testimoanl-card-main-box {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.testimoanl-card-box {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.testimonal-card-child-box {
+    background-color: white;
+    padding: 24px;
+    box-shadow: 11px -11px 80px rgba(5, 9, 23, .1);
+    width: 100%;
+    border-radius: 10px;
+}
+
+.testimonal-card-child-box p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    width: 360px;
+}
+
+.person-detail {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.person-detail h3 {
+    margin-bottom: 10px;
+}
+
+.person-detail span {
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.testimoanl-card-box-2 {
+    gap: 30px;
 }
 
 @media screen and (max-width: 767px) {
