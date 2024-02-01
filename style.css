@@ -56,6 +56,10 @@ header nav div ul li {
     font-weight: bold;
 }
 
+header nav div  li:hover{
+    color: #dc82fc;
+}
+
 header nav div button {
     height: 44px;
     padding-left: 34px;
@@ -561,6 +565,50 @@ header nav div button:hover {
     padding-left: 50px;
     display: flex;
     justify-content: center;
+}
+
+/* footer Section STyling */
+
+footer{
+    background-image: url(Assets/bg.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    border-radius: 0;
+    padding: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.footer-box h3{
+    font-size: 24px;
+}
+
+.footer-box img{
+  width: 200px;
+}
+
+.footer-box p {
+    width: 300px;
+    font-size: 20px;
+    margin-top: 40px;
+    line-height: 30px;
 }
 
 @media screen and (max-width: 767px) {
