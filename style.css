@@ -596,7 +596,7 @@ footer {
     font-weight: 700;
 }
 
-.footer-box span{
+.footer-box span {
     color: rgba(238, 238, 238, 0.705);
     font-weight: 700;
     font-size: 20px;
@@ -751,5 +751,192 @@ footer {
     .client button {
         position: relative;
         top: 65px;
+    }
+
+    .testimonal {
+        padding: 130px 20px;
+    }
+
+    .rating-wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+    }
+
+    .badges-rating {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .badges {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 23px;
+    }
+
+    .badges img {
+        margin-bottom: 0;
+    }
+
+    .badges h2 {
+        font-size: 18px;
+        font-family: myFont;
+    }
+
+    .badges-rating h2 {
+        font-size: 18px;
+        font-family: myFont;
+    }
+
+    .badges-rating p {
+        font-size: 18px;
+    }
+
+    .value_section {
+        padding: 20px;
+    }
+
+    .value_card {
+        flex-direction: column;
+        padding: 23px;
+    }
+
+    .value-card-column img {
+        width: 100%;
+    }
+
+    .value-card-column h1 {
+        margin-top: 0;
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .value-card-column button {
+        font-size: 17px;
+        margin-top: 23px;
+    }
+
+    .value-card-column div {
+        margin-top: 23px;
+    }
+
+    .accordion-box {
+        padding: 20px;
+    }
+
+    .accordion {
+        font-size: 18px;
+        padding: 14px;
+        line-height: 31px;
+    }
+
+    .accordion:after {
+        margin-top: -21px;
+        align-items: unset;
+        padding: 7px;
+    }
+
+    .panel {
+        padding: 14px;
+    }
+
+    .panel-box {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .panel-heading-box p {
+        font-size: 18px;
+    }
+
+    .panel-image-box img {
+        width: 100%;
+    }
+
+    .box-section {
+        margin: 20px;
+        height: 100%;
+        padding: 20px;
+    }
+
+    .box-section h1 {
+        margin-top: 0;
+        width: 100%;
+        font-family: myFont;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .box-section p {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .box-section img {
+        width: 100%;
+    }
+
+    .bg-remove {
+        padding: 0;
+    }
+
+    .bg-img-add .value-card-column {
+        padding: 30px;
+        padding-bottom: 0;
+    }
+
+    .bg-img-add {
+        padding: 0;
+    }
+
+    .bg-img-add h1 {
+        font-size: 30px;
+    }
+
+    .testimonal-card {
+        margin: 20px;
+    }
+
+    .testimonal-card h1 {
+        width: 100%;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .testimoanl-card-main-box {
+        flex-direction: column;
+    }
+
+
+    footer {
+        padding: 20px;
+    }
+
+    .bg-img-remove {
+        padding: 20px;
+        margin: 0;
+        height: 100% !important;
+    }
+
+    .image-column {
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+        margin: 0;
+        gap: 26px;
+    }
+
+    .footer-box {
+        color: black;
+    }
+
+    .footer-box span{
+        color: black;
     }
 }
