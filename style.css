@@ -756,7 +756,7 @@ footer {
     .testimonal {
         padding: 153px 20px;
         padding-bottom: 0;
-    } 
+    }
 
     .rating-wrapper {
         flex-direction: column;
@@ -830,8 +830,7 @@ footer {
     }
 
     .accordion {
-        font-size: 18px;
-        padding: 14px;
+        font-size: 19px;
         line-height: 31px;
     }
 
@@ -937,7 +936,213 @@ footer {
         color: black;
     }
 
-    .footer-box span{
+    .footer-box span {
         color: black;
     }
+}
+
+@media screen and (min-width: 768px) and (max-width:1340px) {
+    header nav {
+        padding: 45px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .hero-section h1 {
+        font-size: 70px;
+    }
+
+    .hero-section p {
+        line-height: 37px;
+        font-size: 20px;
+        width: 400px;
+    }
+
+    .client {
+        padding: 45px;
+        gap: 100px;
+        bottom: -641px;
+        align-items: center;
+    }
+
+    .client button {
+        width: 300px;
+    }
+
+    .client h2 {
+        font-size: 35px;
+    }
+
+    .testimonal {
+        padding: 45px;
+        margin-top: 61px;
+    }
+
+    .rating-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 37px;
+    }
+
+    .badges-rating h2 {
+        font-size: 20px;
+        font-family: myFont;
+    }
+
+    .badges {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .badges-rating p {
+        font-size: 15px;
+    }
+
+    .badges h2 {
+        font-size: 20px;
+        font-family: myFont;
+        width: 100%;
+        line-height: 30px;
+    }
+
+    .badges img {
+        margin-bottom: 0;
+    }
+
+    .value_section {
+        padding: 45px;
+    }
+
+    .value_card {
+        flex-direction: column;
+    }
+
+    .value-card-column img {
+        width: 100%;
+    }
+
+    .value-card-column h1 {
+        font-size: 47px;
+        line-height: 65px;
+        margin-top: 0;
+    }
+
+    .accordion-box {
+        padding: 45px;
+    }
+
+    .accordion {
+        padding: 20px;
+        font-size: 23px;
+        line-height: 36px;
+    }
+
+    .accordion:after {
+        align-items: unset;
+    }
+
+    .panel {
+        padding: 20px;
+    }
+
+    .panel-box {
+        flex-direction: column;
+    }
+
+    .panel-image-box img {
+        width: 100%;
+    }
+
+    .box-section {
+        margin: 45px;
+        padding: 20px;
+        padding-bottom: 0;
+        height: 100%;
+    }
+
+    .box-section h1 {
+        margin-top: 0;
+        width: 100%;
+        font-size: 37px;
+    }
+
+    .box-section p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .box-section img {
+        width: 100%;
+    }
+
+    .bg-remove {
+        padding: 0;
+    }
+
+    .bg-img-add .value-card-column {
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        padding-bottom: 0;
+    }
+
+    .bg-img-add {
+        gap: 0;
+    }
+
+    .testimoanl-card-main-box {
+        flex-direction: column;
+    }
+
+    .testimonal-card {
+        margin: 45px;
+    }
+
+    .testimoanl-card-box {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .testimoanl-card-box-2 {
+        gap: 30px;
+    }
+
+    .testimonal-card-child-box {
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .testimonal-card-child-box p{
+        width: 100%;
+    }
+
+    .bg-img-remove{
+        margin: 0;
+        height: 100% !important;
+    }
+
+    .image-column{
+        display: flex;
+    }
+    .image-column img{
+    width: 224px;
+    bottom: -28px;
+    }
+
+    .bg-img-remove h1{
+        font-size: 50px;
+    }
+
 }
