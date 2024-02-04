@@ -760,6 +760,14 @@ footer {
     gap: 30px;
 }
 
+.testimonal {
+    padding-right: 0;
+}
+
+.rating-wrapper {
+    padding-right: 100px;
+}
+
 @media screen and (max-width: 767px) {
     .none {
         display: none;
@@ -1303,12 +1311,4 @@ footer {
     .footer-box p{
         color: white;
     }
-}
-
-.testimonal {
-    padding-right: 0;
-}
-
-.rating-wrapper {
-    padding-right: 100px;
 }
