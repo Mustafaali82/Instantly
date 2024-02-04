@@ -219,6 +219,74 @@ header nav div button:hover {
     padding: 100px 80px;
 }
 
+
+swiper-container {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+swiper-slide {
+    font-size: 18px;
+    background-color: #fff;
+    width: 900px !important;
+    border-radius: 30px;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.slider-description {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.slider-description img {
+    width: 50px;
+}
+
+.slider-img img {
+    width: 372px;
+    border-radius: 30px;
+}
+
+.slider-description p {
+    font-size: 22px;
+    color: rgba(15, 15, 15, 0.65);
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+.slider-description span {
+    color: black;
+}
+
+.personName h3 {
+    margin: 0;
+    font-size: 26px;
+    line-height: 54px;
+}
+
+.personName span {
+    font-size: 22px;
+    color: rgba(15, 15, 15, 0.65);
+}
+
+
 .rating-wrapper {
     display: flex;
     justify-content: space-between;
@@ -732,7 +800,7 @@ footer {
     }
 
     .client {
-        bottom: -245px;
+        bottom: -28px;
         flex-direction: column;
         gap: 0;
         padding: 0;
@@ -939,6 +1007,43 @@ footer {
     .footer-box span {
         color: black;
     }
+
+    swiper-container {
+        margin-left: 20px;
+    }
+
+    swiper-slide {
+        width: 370px !important;
+    }
+
+    .slider {
+        flex-direction: column;
+        padding: 14px;
+    }
+
+    .slider-img img {
+        width: 100%;
+    }
+
+    .slider-description {
+        padding-left: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .slider-description p {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .personName h3 {
+        font-size: 20px;
+    }
+
+    .personName span {
+        font-size: 20px;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width:1340px) {
@@ -963,7 +1068,7 @@ footer {
     .client {
         padding: 45px;
         gap: 100px;
-        bottom: -641px;
+        bottom: -211px;
         align-items: center;
     }
 
@@ -1124,25 +1229,86 @@ footer {
         flex-direction: column;
     }
 
-    .testimonal-card-child-box p{
+    .testimonal-card-child-box p {
         width: 100%;
     }
 
-    .bg-img-remove{
+    .bg-img-remove {
         margin: 0;
         height: 100% !important;
     }
 
-    .image-column{
+    .image-column {
         display: flex;
     }
-    .image-column img{
-    width: 224px;
-    bottom: -28px;
+
+    .image-column img {
+        width: 224px;
+        bottom: -28px;
     }
 
-    .bg-img-remove h1{
+    .bg-img-remove h1 {
         font-size: 50px;
     }
 
+    swiper-container {
+        margin-left: 20px;
+    }
+
+    swiper-slide {
+        width: 700px !important;
+    }
+
+    .slider {
+        flex-direction: column-reverse;
+        padding: 14px;
+        gap: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        align-items: unset;
+    }
+
+    .slider-description {
+        margin-top: 30px;
+    }
+
+    .slider-description p {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .slider-description {
+        padding-left: 0;
+    }
+
+    .slider-img img {
+        width: 100%;
+    }
+
+    .rating-wrapper {
+        padding-right: 0 !important;
+    }
+
+    .footer {
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 58px;
+    }
+
+    .footer-box span{
+        color: white;
+    }
+
+    .footer-box p{
+        color: white;
+    }
+}
+
+.testimonal {
+    padding-right: 0;
+}
+
+.rating-wrapper {
+    padding-right: 100px;
 }
